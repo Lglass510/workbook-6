@@ -14,5 +14,13 @@ public class CreditCard extends FixedAsset implements Valuable{
     public double getValue() {
         return value;
     }
+
+    public void charge(){
+        System.out.println("Complete purchase here.");
+    }
+
+    public void payBill(){
+        System.out.println("Submit payment to clear balance.");
+    }
 }
 

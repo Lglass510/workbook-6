@@ -11,7 +11,7 @@ public class Gold extends FixedAsset implements Valuable {
     }
 
     public double getValue(){
-        return value;
+        return weight * karat;
     }
 
 }

@@ -15,4 +15,8 @@ public class House extends FixedAsset implements Valuable {
     public double getValue() {
         return value;
     }
+
+    public void retrieveEquity(){
+        System.out.println("Contact your bank to start the long hard process of equity liquidation.");
+    }
 }
