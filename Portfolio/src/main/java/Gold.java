@@ -1,4 +1,4 @@
-
+import com.pluralsight.finance.Valuable;
 
 public class Gold extends FixedAsset implements Valuable {
     double weight;

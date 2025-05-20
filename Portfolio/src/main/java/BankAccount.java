@@ -1,4 +1,4 @@
-
+import com.pluralsight.finance.Valuable;
 
 public class BankAccount extends FixedAsset implements Valuable {
     private int accountNumber;
@@ -13,9 +13,7 @@ public class BankAccount extends FixedAsset implements Valuable {
     }
 
     @Override
-    public double getValue() {
-        return value;
-    }
+    public double getValue() {return balance;}
 
     public void deposit(double amount) {
         balance += amount;

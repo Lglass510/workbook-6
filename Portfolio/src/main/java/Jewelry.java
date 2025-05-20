@@ -1,7 +1,6 @@
+import com.pluralsight.finance.Valuable;
 
-
-
-public class Jewelry extends FixedAsset implements Valuable{
+public class Jewelry extends FixedAsset implements Valuable {
     String name;
     String description;
     double karat;

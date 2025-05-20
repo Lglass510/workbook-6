@@ -1,5 +1,6 @@
+import com.pluralsight.finance.Valuable;
 
-public class CreditCard extends FixedAsset implements Valuable{
+public class CreditCard extends FixedAsset implements Valuable {
     int cardNumber;
     int accountNumber;
     double creditLimit;
