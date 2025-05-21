@@ -18,7 +18,8 @@ public class Program {
                 new Person("Neville", "Longbottom", 18),
                 new Person("Severus", "Snape", 45),
                 new Person("Albus", "Dumbledoor", 77),
-                new Person("Minerva", "McGonagall", 74)
+                new Person("Minerva", "McGonagall", 74),
+                new Person("Sirus", "Black", 45)
         );
 
         System.out.println("Enter a name to search: ");
